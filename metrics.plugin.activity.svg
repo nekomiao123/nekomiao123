@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="731" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="959" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -735,6 +735,234 @@
                 
                   <div class="field">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 31 commits in <div class="repo">nekomiao123/youth_read_helper</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">master</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#692786b</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#7e308d2</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#d45040d</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#4b56c4c</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#e6291fa</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#74366c1</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#8445d92</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#707c73d</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#1766f8e</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#80d45b2</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#7dad76c</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#2c6e5a2</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#31f5239</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#f504b29</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#aa3be30</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#8acf3d4</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#8d4b04e</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#cd6faab</div>
+                        <div class="message">Update readme.md
+
+
+  [toc]  
+
+ #  &lt;center&gt; 中青看点使用说明 &lt;/center&gt;
+
+ [跳转至底部](#四、注意事项)
+
+### 一、IOS配置教程
+ ```
+[MITM]
+hostname = *.youth.cn, ios.baertt.com 
+ ```
+#### Surge:
+ 
+ ```
+[Script]
+中青看点 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,script-update-interval=0
+中青看点 = type=http-request,pattern=https:\/\/\w+\.youth\.cn\/TaskCenter\/(sign|getSign),script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/complete,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
+中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/red_packet,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
+中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
+中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\.json,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
+```
+#### Shadowrocket(Cron配置): 
+
+```
+[Script]
+中青看点 = type=cron,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,cronexpr="1 */6 * * *",timeout=20,enable=true
+```
+####  Loon:
+ 
+ ```
+[Script]
+cron "04 00 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, enabled=true, tag=中青看点
+http-request https:\/\/\w+\.youth\.cn\/TaskCenter\/(sign|getSign) script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+http-request https:\/\/ios\.baertt\.com\/v5\/article\/complete script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
+http-request https:\/\/ios\.baertt\.com\/v5\/article\/red_packet script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
+http-request https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
+http-request https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\.json script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
+```
+#### Quantumult X:
+   * [远程重写配置](https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/youth/qx_rewite.txt)
+   
+```
+[rewrite_remote]
+https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/sina/qx_rewite.txt
+```
+   * 本地重写配置
+   
+```
+[rewrite_local]
+https:\/\/\w+\.youth\.cn\/TaskCenter\/(sign|getSign) url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+https?:\/\/ios\.baertt\.com\/v5\/article\/complete url script-request-body youth.js
+https:\/\/ios\.baertt\.com\/v5\/article\/red_packet url script-request-body https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json url script-request-body youth.js
+https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\.json url script-request-body https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+```
+   * 本地任务配置
+   
+```
+[task_local]
+1 */5 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+```
+###  二、获取Cookie方法
+  * 打开极速版APP，进去个人中心，或者签到一次，提示获取Cookie
+  - 浏览一篇短文，等待倒计时结束，提示获取阅读请求及阅读时长
+  * 向下滑动，文末有惊喜红包，点击惊喜红包，获取惊喜红包请求(不必选)
+  - 正常提现一次，获取提现请求(可选)
+  
+ &gt;&gt;&gt; [回到顶部](#一、IOS配置教程)
+
+### 三、Nodejs 配置密钥
+
+&lt;details&gt;
+
+  &lt;summary&gt;
+    &lt;span style="font-size:22"&gt;
+       Actions Secrets 
+    &lt;/span&gt;
+  &lt;/summary&gt;  
+
+| Name | 脚本相关YML | Value分割符 | 必须 / 可选 | 注意事项及样式(其中"xxx"代表任意字符) |
+| :-------: | :------: | :-------: | ------ | ------- |
+| YOUTH_HEADER | &lt;span style="font-size:18; color:#0000ff"&gt; 中青看点 youth.yml &lt;/span&gt; |  #  | 必须 | 请求地址:  "https://kd.youth.cn/TaskCenter/getSign"，  &lt;br&gt;中青签到请求头: { xxx } |
+| YOUTH_ARTBODY | 同上 | &amp; | 必须 | 请求地址: "https://ios.baertt.com/v5/article/complete"， &lt;br&gt;阅读请求体: p=xxx |
+| YOUTH_REDBODY | 同上 | &amp; | 必须 | 请求地址: "https://ios.baertt.com/v5/article/red_packet"， &lt;br&gt;惊喜红包请求体: p=xxx |
+| YOUTH_TIME | 同上 | &amp; | 必须 | 请求地址: "https://ios.baertt.com/v5/user/app_stay.json"，  &lt;br&gt;阅读时长请求体: p=xxx |
+| YOUTH_NOTIFY_CONTROL | 同上 | true/false | 可选 | 中青通知开关 &lt;br&gt;默认当转盘次数为50或者100并且余额大于10元时推送通知 |
+|  |  |  | - |  |
+| YOUTH_READ | &lt;span style="font-size:18; color:#0000ff"&gt;中青阅读 youth_read.yml&lt;/span&gt; | &amp;或者换行 | 必须 | 请求地址: "https://ios.baertt.com/v5/article/complete"，  &lt;br&gt;阅读请求体: p=xxx |
+| YOUTH_START | &lt;span style="font-size:18; color:#0000ff"&gt;中青浏览赚 youth_gain.yml&lt;/span&gt; | &amp; | 必须 | 请求地址: "https://ios.baertt.com/v5/task/browse_start.json"，  &lt;br&gt;阅读请求体: p=xxx |
+| YOUTH_END | 同上 | &amp; | 必须 | 请求地址: "https://ios.baertt.com/v5/task/browse_end.json"，  &lt;br&gt;阅读请求体: p=xxx |
+
+&lt;/details&gt;
+
+ &gt;&gt;&gt; [回到上一页](..)
+ 
+### 四、注意事项
+ &gt; __提现金额需该请求一致，只更改提现金额无效，默认30元__</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#8ecd05c</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#66c3ccb</div>
+                        <div class="message">Update readme.md</div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
                     Pushed 52 commits in <div class="repo">nekomiao123/youth_read_helper</div>
                   </div>
                   <div class="details">
@@ -930,56 +1158,6 @@
                       <div class="commit">
                         <div class="sha">#697e7cb</div>
                         <div class="message">add</div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 4 commits in <div class="repo">nekomiao123/youth_read_helper</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">master</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#4f67f17</div>
-                        <div class="message">Update baidu_speed.js</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#981ae43</div>
-                        <div class="message">Update baidu_speed.js</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#cdc518b</div>
-                        <div class="message">Create formatJson.js
-
-格式化json</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#1b4658b</div>
-                        <div class="message">Update baidu_speed.js</div>
                       </div>
                     
                   </div>
