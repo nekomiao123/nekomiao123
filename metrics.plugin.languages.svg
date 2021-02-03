@@ -364,6 +364,11 @@
     font-size: 7px;
   }
 
+  .chart-bars .entry .empty {
+    width: 100%;
+    text-align: center;
+  }
+
   .chart-bars .bar {
     width: 7px;
     background-color: var(--color-calendar-graph-day-bg);
@@ -373,7 +378,6 @@
 
   .chart-bars.horizontal {
     flex-direction: column;
-    align-items: space-between;
     height: 100%;
   }
 
@@ -386,7 +390,10 @@
   .chart-bars.horizontal .entry .name {
     flex-shrink: 0;
     text-align: right;
-    min-width: 30%;
+    width: 34%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .chart-bars .entry .bottom {
@@ -709,34 +716,34 @@
         </mask>
         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
         
-          <rect mask="url(#languages-bar)" x="0" y="0" width="145.79044514890387" height="8" fill="#e16737"/>
+          <rect mask="url(#languages-bar)" x="0" y="0" width="145.97085411651764" height="8" fill="#3572A5"/>
         
-          <rect mask="url(#languages-bar)" x="145.79044514890387" y="0" width="145.69802205652545" height="8" fill="#3572A5"/>
+          <rect mask="url(#languages-bar)" x="145.97085411651764" y="0" width="145.39406342310957" height="8" fill="#e16737"/>
         
-          <rect mask="url(#languages-bar)" x="291.4884672054293" y="0" width="131.27180425949902" height="8" fill="#f1e05a"/>
+          <rect mask="url(#languages-bar)" x="291.3649175396272" y="0" width="130.86799126905885" height="8" fill="#f1e05a"/>
         
-          <rect mask="url(#languages-bar)" x="422.76027146492834" y="0" width="17.560182167254542" height="8" fill="#f34b7d"/>
+          <rect mask="url(#languages-bar)" x="422.2329088086861" y="0" width="17.51243874136947" height="8" fill="#f34b7d"/>
         
-          <rect mask="url(#languages-bar)" x="440.3204536321829" y="0" width="10.291619413314283" height="8" fill="#ff6347"/>
+          <rect mask="url(#languages-bar)" x="439.74534755005556" y="0" width="10.263638088062816" height="8" fill="#ff6347"/>
         
-          <rect mask="url(#languages-bar)" x="450.61207304549714" y="0" width="5.955949457516632" height="8" fill="#555555"/>
+          <rect mask="url(#languages-bar)" x="450.00898563811836" y="0" width="5.939756149907873" height="8" fill="#555555"/>
         
-          <rect mask="url(#languages-bar)" x="456.56802250301376" y="0" width="3.4042505692726706" height="8" fill="#b07219"/>
+          <rect mask="url(#languages-bar)" x="455.94874178802627" y="0" width="3.394994937229663" height="8" fill="#b07219"/>
         
-          <rect mask="url(#languages-bar)" x="459.97227307228644" y="0" width="0.027726927713533064" height="8" fill="#701516"/>
+          <rect mask="url(#languages-bar)" x="459.3437367252559" y="0" width="0.656263274744123" height="8" fill="#012456"/>
         
       </svg>
       
         <div class="field center horizontal-wrap fill-width">
           
             <div class="field center no-wrap language">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#e16737" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
-              MATLAB
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#3572A5" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
+              Python
             </div>
           
             <div class="field center no-wrap language">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#3572A5" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
-              Python
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#e16737" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
+              MATLAB
             </div>
           
             <div class="field center no-wrap language">
@@ -765,8 +772,8 @@
             </div>
           
             <div class="field center no-wrap language">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#701516" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
-              Ruby
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#012456" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
+              PowerShell
             </div>
           
         </div>
@@ -805,6 +812,8 @@
 
 
 
+      
+        
       
 
       
