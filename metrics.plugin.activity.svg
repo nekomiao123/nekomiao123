@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="434" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="335" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -275,8 +275,9 @@
   .track .name {
     font-size: 14px;
     line-height: 14px;
+    font-weight: 600;
   }
-  .track .artist {
+  .track .artist, .track .played-at {
     font-size: 12px;
     color: #666666;
   }
@@ -717,6 +718,7 @@
         
       
         
+
       
         
       
@@ -754,57 +756,7 @@
                 
                   <div class="field">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 4 commits in <div class="repo">nekomiao123/new-heal-sign</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">main</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#e545370</div>
-                        <div class="message">docs: update README.md [skip ci]</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#a58c85f</div>
-                        <div class="message">docs: update .all-contributorsrc [skip ci]</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#f8331b3</div>
-                        <div class="message">Merge pull request #13 from viewv/all-contributors/add-superzhaoyang
-
-docs: add superzhaoyang as a contributor</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#9116e3d</div>
-                        <div class="message">Update README.md</div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 1 commit in <div class="repo">nekomiao123/youth_read_helper</div>
+                    Pushed 1 commit in <div class="repo">nekomiao123/pic</div>
                   </div>
                   <div class="details">
                     
@@ -812,8 +764,8 @@ docs: add superzhaoyang as a contributor</div>
                     
                     
                       <div class="commit">
-                        <div class="sha">#6f0defc</div>
-                        <div class="message"></div>
+                        <div class="sha">#bad94c7</div>
+                        <div class="message">Upload by PicGo</div>
                       </div>
                     
                   </div>
@@ -837,50 +789,7 @@ docs: add superzhaoyang as a contributor</div>
                 
                   <div class="field">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 3 commits in <div class="repo">nekomiao123/youth_read_helper</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">master</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#f7037d7</div>
-                        <div class="message"></div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#66acefd</div>
-                        <div class="message">删掉多余脚本配置</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#e43ddc9</div>
-                        <div class="message"></div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 5 commits in <div class="repo">nekomiao123/new-heal-sign</div>
+                    Pushed 3 commits in <div class="repo">nekomiao123/new-heal-sign</div>
                   </div>
                   <div class="details">
                     
@@ -888,32 +797,89 @@ docs: add superzhaoyang as a contributor</div>
                     
                     
                       <div class="commit">
-                        <div class="sha">#531ffb7</div>
-                        <div class="message">docs: update README.md [skip ci]</div>
+                        <div class="sha">#f005537</div>
+                        <div class="message">add random sleep</div>
                       </div>
                     
                       <div class="commit">
-                        <div class="sha">#b686b4c</div>
-                        <div class="message">docs: update .all-contributorsrc [skip ci]</div>
+                        <div class="sha">#b00db96</div>
+                        <div class="message">add random sleep</div>
                       </div>
                     
                       <div class="commit">
-                        <div class="sha">#9e5ea04</div>
-                        <div class="message">Merge pull request #10 from viewv/all-contributors/add-ryuujo1573
-
-docs: add ryuujo1573 as a contributor</div>
+                        <div class="sha">#72c369f</div>
+                        <div class="message">Update checkin.yml</div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 2 commits in <div class="repo">nekomiao123/youth_read_helper</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">master</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#4f30ac4</div>
+                        <div class="message"></div>
                       </div>
                     
                       <div class="commit">
-                        <div class="sha">#5f0fe12</div>
-                        <div class="message">Update model.json
-
-test new rowSetName</div>
+                        <div class="sha">#b634970</div>
+                        <div class="message">fix错误</div>
                       </div>
                     
+                  </div>
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 1 commit in <div class="repo">viewv/sduhealth</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">main</div></div>
+                    
+                    
                       <div class="commit">
-                        <div class="sha">#648272f</div>
-                        <div class="message">改为动态获取各种参数</div>
+                        <div class="sha">#72c369f</div>
+                        <div class="message">Update checkin.yml</div>
                       </div>
                     
                   </div>
