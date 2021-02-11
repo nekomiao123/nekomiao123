@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="661" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="470" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -476,6 +476,13 @@
     margin: 0 4px;
   }
 
+  .activity .issue {
+    flex-grow: 1;
+    width: 0%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
   .activity .code {
     background-color: #7777771F;
     padding: 1px 5px;
@@ -486,17 +493,22 @@
     margin: 0 4px -3px;
   }
 
-  .activity .bold {
+  .activity .bold, .activity .user {
     font-weight: 600;
     margin: 0 4px;
   }
 
-  .activity .details {
+  .activity .details, .activity .timestamp {
     padding-left: 42px;
     display: flex;
     flex-direction: column;
     font-size: 13px;
     color: #666666;
+  }
+
+  .activity .timestamp {
+    font-size: 10px;
+    margin-top: 4px;
   }
 
   .activity .details &gt; div {
@@ -640,6 +652,13 @@
     }
   }
 
+/* Twemoji */
+  .twemoji {
+    height: 1em;
+    width: 1em;
+    margin-bottom: -.125em;
+  }
+
 /* Cake day */
   .cakeday, .cakeday svg {
     animation: animation-rainbow 1.2s;
@@ -760,6 +779,89 @@
                 
                   <div class="field">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 2 commits in <div class="repo">nekomiao123/youth_read_helper</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">master</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#76ab230</div>
+                        <div class="message"></div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#cd979eb</div>
+                        <div class="message"></div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 3 commits in <div class="repo">nekomiao123/youth_read_helper</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">master</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#49d81f5</div>
+                        <div class="message">修复微博</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#0a1b2d9</div>
+                        <div class="message"></div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#7cadf90</div>
+                        <div class="message">取消微博钱包ck测试</div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
                     Pushed 3 commits in <div class="repo">nekomiao123/youth_read_helper</div>
                   </div>
                   <div class="details">
@@ -783,6 +885,7 @@
                       </div>
                     
                   </div>
+                
                 
                 
                 
@@ -842,141 +945,6 @@
                     
                   </div>
                 
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 13 commits in <div class="repo">nekomiao123/youth_read_helper</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">master</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#93b3c99</div>
-                        <div class="message"></div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#c1b7f31</div>
-                        <div class="message"></div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#56861c9</div>
-                        <div class="message"></div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#b89c3a8</div>
-                        <div class="message"></div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#c7ac1c7</div>
-                        <div class="message">修复ck获取错误</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#7187a9d</div>
-                        <div class="message">修复ck错误</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#95c8aa4</div>
-                        <div class="message">fix</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#3fcdd8f</div>
-                        <div class="message"></div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#078a1b4</div>
-                        <div class="message"></div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#9d28b88</div>
-                        <div class="message"></div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#c9e55f3</div>
-                        <div class="message">测试</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#c553f4b</div>
-                        <div class="message"></div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#c6e1386</div>
-                        <div class="message"></div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 3 commits in <div class="repo">nekomiao123/youth_read_helper</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">master</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#ebc6282</div>
-                        <div class="message"></div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#b770ff8</div>
-                        <div class="message">修复ck无法写入</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#52a8fde</div>
-                        <div class="message"></div>
-                      </div>
-                    
-                  </div>
                 
                 
                 
