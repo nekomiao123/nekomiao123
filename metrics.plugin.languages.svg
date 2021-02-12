@@ -638,6 +638,57 @@
     border-radius: 7px;
   }
 
+/* Licenses */
+  .licenses {
+    display: flex;
+  }
+  .licenses .column {
+    align-items: flex-start;
+    font-size: 12px;
+    color: #666666;
+    flex-shrink: 0;
+  }
+  .licenses-details {
+    margin-top: 8px;
+  }
+  .field.license.details {
+    display: flex;
+    justify-content: space-between;
+  }
+  .field.license.details small {
+    display: flex;
+    justify-content: space-between;
+    color: #666666;
+    text-align: right;
+  }
+  .licenses .column:nth-child(1) {
+    margin-left: 13px;
+    width: 25%;
+  }
+  .licenses .column:nth-child(2) {
+    width: 25%;
+  }
+  .licenses .column:nth-child(3) {
+    width: 50%;
+  }
+  .licenses .column svg {
+    height: 12px;
+    width: 12px;
+  }
+  .licenses .column .title {
+    font-weight: 600;
+    margin-left: 15px;
+  }
+  .licenses .column .permission svg {
+    fill: #56d364;
+  }
+  .licenses .column .limitation svg {
+    fill: #f85149;
+  }
+  .licenses .column .condition svg {
+    fill: #58a6ff;
+  }
+
 /* Fade animation */
   .af {
     opacity: 0;
@@ -738,21 +789,21 @@
         </mask>
         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
         
-          <rect mask="url(#languages-bar)" x="0" y="0" width="149.99054195645994" height="8" fill="#e16737"/>
+          <rect mask="url(#languages-bar)" x="0" y="0" width="150.14489514862663" height="8" fill="#e16737"/>
         
-          <rect mask="url(#languages-bar)" x="149.99054195645994" y="0" width="139.00877498813725" height="8" fill="#3572A5"/>
+          <rect mask="url(#languages-bar)" x="150.14489514862663" y="0" width="139.1518269958087" height="8" fill="#3572A5"/>
         
-          <rect mask="url(#languages-bar)" x="288.9993169445972" y="0" width="132.37813065145662" height="8" fill="#f1e05a"/>
+          <rect mask="url(#languages-bar)" x="289.29672214443536" y="0" width="132.0409795171388" height="8" fill="#f1e05a"/>
         
-          <rect mask="url(#languages-bar)" x="421.37744759605386" y="0" width="18.06607584900755" height="8" fill="#f34b7d"/>
+          <rect mask="url(#languages-bar)" x="421.33770166157416" y="0" width="18.084667397786866" height="8" fill="#f34b7d"/>
         
-          <rect mask="url(#languages-bar)" x="439.4435234450614" y="0" width="10.58811207988303" height="8" fill="#ff6347"/>
+          <rect mask="url(#languages-bar)" x="439.422369059361" y="0" width="10.59900815957733" height="8" fill="#ff6347"/>
         
-          <rect mask="url(#languages-bar)" x="450.03163552494436" y="0" width="6.12753521731681" height="8" fill="#555555"/>
+          <rect mask="url(#languages-bar)" x="450.02137721893837" y="0" width="6.1338409790573145" height="8" fill="#555555"/>
         
-          <rect mask="url(#languages-bar)" x="456.15917074226115" y="0" width="3.5023240879694515" height="8" fill="#b07219"/>
+          <rect mask="url(#languages-bar)" x="456.1552181979956" y="0" width="3.505928281246767" height="8" fill="#b07219"/>
         
-          <rect mask="url(#languages-bar)" x="459.6614948302306" y="0" width="0.33850516976935513" height="8" fill="#012456"/>
+          <rect mask="url(#languages-bar)" x="459.6611464792424" y="0" width="0.33885352075760605" height="8" fill="#012456"/>
         
       </svg>
       
