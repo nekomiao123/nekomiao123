@@ -1221,8 +1221,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <span class="sha">#ff0ec4f</span>
-                                        <span class="message">CPS</span>
+                                        <span class="sha">#5e87133</span>
+                                        <span class="message">readme</span>
                                     </div>
                                 </div>
                             </section>
@@ -1240,8 +1240,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <span class="sha">#3d5de93</span>
-                                        <span class="message">train</span>
+                                        <span class="sha">#d99a9d4</span>
+                                        <span class="message">fixed dice loss</span>
                                     </div>
                                 </div>
                             </section>
@@ -1259,8 +1259,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <span class="sha">#c615100</span>
-                                        <span class="message">new dataloader</span>
+                                        <span class="sha">#bdc734a</span>
+                                        <span class="message">No CPS</span>
                                     </div>
                                 </div>
                             </section>
@@ -1278,8 +1278,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <span class="sha">#769e1b4</span>
-                                        <span class="message">add new file</span>
+                                        <span class="sha">#04b5a5d</span>
+                                        <span class="message">formal</span>
                                     </div>
                                 </div>
                             </section>
