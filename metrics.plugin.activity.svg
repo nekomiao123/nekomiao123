@@ -1221,8 +1221,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <span class="sha">#5e87133</span>
-                                        <span class="message">readme</span>
+                                        <span class="sha">#c36f520</span>
+                                        <span class="message">new NoCPS</span>
                                     </div>
                                 </div>
                             </section>
@@ -1234,14 +1234,14 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                      Pushed 1 commit in <span class="repo">nekomiao123/MNMS_seg</span>
+                      Pushed 1 commit in <span class="repo">nekomiao123/cowboy_outfits_competition</span>
                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <span class="sha">#d99a9d4</span>
-                                        <span class="message">fixed dice loss</span>
+                                        <span class="sha">#f2b5cbf</span>
+                                        <span class="message">new</span>
                                     </div>
                                 </div>
                             </section>
@@ -1253,14 +1253,14 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                      Pushed 1 commit in <span class="repo">nekomiao123/MNMS_seg</span>
+                      Pushed 1 commit in <span class="repo">nekomiao123/cowboy_outfits_competition</span>
                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <span class="sha">#bdc734a</span>
-                                        <span class="message">No CPS</span>
+                                        <span class="sha">#b604e72</span>
+                                        <span class="message">delete useless files</span>
                                     </div>
                                 </div>
                             </section>
@@ -1272,14 +1272,14 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                      Pushed 1 commit in <span class="repo">nekomiao123/MNMS_seg</span>
+                      Pushed 1 commit in <span class="repo">nekomiao123/pytorch_utils</span>
                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <span class="sha">#04b5a5d</span>
-                                        <span class="message">formal</span>
+                                        <span class="sha">#a383160</span>
+                                        <span class="message">little change</span>
                                     </div>
                                 </div>
                             </section>
