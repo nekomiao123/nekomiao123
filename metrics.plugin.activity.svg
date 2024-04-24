@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="659" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="286" class="">
     <defs>
         <style/>
     </defs>
@@ -23,14 +23,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">Lkiku/ore-miner</span>
+                                        <span class="repo">nekomiao123/learn_rust</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#6346b0e</div>
-                                        <div class="message">readme</div>
+                                        <div class="sha">#5c801b4</div>
+                                        <div class="message">add reference book</div>
                                     </div>
                                 </div>
                             </section>
@@ -43,14 +43,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">nekomiao123/nekomiao123</span>
+                                        <span class="repo">nekomiao123/learn_rust</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#e9d44cb</div>
-                                        <div class="message">Update README.md</div>
+                                        <div class="sha">#c8ac621</div>
+                                        <div class="message">hello</div>
                                     </div>
                                 </div>
                             </section>
@@ -63,14 +63,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">nekomiao123/nekomiao123</span>
+                                        <span class="repo">nekomiao123/learn_rust</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#eb5aa54</div>
-                                        <div class="message">Update README.md</div>
+                                        <div class="sha">#7ed3491</div>
+                                        <div class="message">Initial commit</div>
                                     </div>
                                 </div>
                             </section>
@@ -82,118 +82,15 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 3896 commits in
-                                        <span class="repo">nekomiao123/leetcode-master</span>
+                                        Pushed 1 commit in
+                                        <span class="repo">nekomiao123/leetcode_for_work</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
+                                    <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#012b3fd</div>
-                                        <div class="message">Merge pull request #2060 from xiaodi007/fix_0343_py
-
-修改0343 python代码错误</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#a9ef5d7</div>
-                                        <div class="message">Merge pull request #2057 from enjoy-binbin/fix_typo
-
-修复 0101.对称二叉树.md 里的错别字</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#9e61df2</div>
-                                        <div class="message">Merge pull request #2039 from Lozakaka/patch-1
-
-Update 0225.用队列实现栈.md</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ea84e74</div>
-                                        <div class="message">Merge pull request #2059 from 1055373165/patch-1
-
-Update 0035.搜索插入位置.md</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#eaacd8b</div>
-                                        <div class="message">Merge pull request #2055 from Lozakaka/patch-5
-
-Update 0098.验证二叉搜索树.md</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2a7e553</div>
-                                        <div class="message">Merge pull request #2056 from Lozakaka/patch-6
-
-新增java 統一迭代法-中序遍历</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#03829cd</div>
-                                        <div class="message">Apply suggestions from code review</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#db21086</div>
-                                        <div class="message">Update 0494.目标和.md about rust</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#38503dd</div>
-                                        <div class="message">Update 1049.最后一块石头的重量II.md about rust</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#d70599e</div>
-                                        <div class="message">Merge pull request #2052 from jimowo/master
-
-算法空间优化</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#9d171aa</div>
-                                        <div class="message">Merge pull request #2048 from CharlieZJJ/master
-
-更新 0028.实现strStr Rust版本多余代码删除</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#c736dda</div>
-                                        <div class="message">Merge pull request #2049 from Projecthappy/master
-
-Update 0225.用队列实现栈.md 添加方法的不同实现</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#3818de4</div>
-                                        <div class="message">Update 0700.二叉搜索树中的搜索.md</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2d06a68</div>
-                                        <div class="message">添加 0494.目标和.md Java版本的二维数组解法</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#a45046b</div>
-                                        <div class="message">Update 0617.合并二叉树.md
-
-添加 创建 root节点 和 python queue的代码优化版本</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7eea41e</div>
-                                        <div class="message">Update 0654.最大二叉树.md</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#40f8230</div>
-                                        <div class="message">Update 0106.从中序与后序遍历序列构造二叉树.md
-
-python 代码重复</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#679d998</div>
-                                        <div class="message">Merge pull request #2058 from juguagua/leetcode-add-complexity-analysis-backtracking
-
-添加复杂度分析：回溯部分</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#898c42a</div>
-                                        <div class="message">新增java用set2k</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#61d479e</div>
-                                        <div class="message">improving java solution by using stringBuilder
-
-1. improving java solution by using stringBuilder
-2. adding explanation in the code</div>
+                                        <div class="sha">#e379964</div>
+                                        <div class="message">restart</div>
                                     </div>
                                 </div>
                             </section>
