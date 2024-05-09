@@ -29,8 +29,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#2fd1e76</div>
-                                        <div class="message">learn sol</div>
+                                        <div class="sha">#3573cb8</div>
+                                        <div class="message">add video</div>
                                     </div>
                                 </div>
                             </section>
@@ -43,14 +43,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">nekomiao123/learn_sol</span>
+                                        <span class="repo">nekomiao123/learn_rust</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#22267f8</div>
-                                        <div class="message">add more lib</div>
+                                        <div class="sha">#8825e8b</div>
+                                        <div class="message">enum and match</div>
                                     </div>
                                 </div>
                             </section>
@@ -63,14 +63,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">nekomiao123/learn_sol</span>
+                                        <span class="repo">nekomiao123/learn_rust</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#647a217</div>
-                                        <div class="message">multi trans</div>
+                                        <div class="sha">#290571c</div>
+                                        <div class="message">add login</div>
                                     </div>
                                 </div>
                             </section>
@@ -83,14 +83,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">nekomiao123/learn_sol</span>
+                                        <span class="repo">nekomiao123/learn_rust</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#c8844ff</div>
-                                        <div class="message">multiple trans</div>
+                                        <div class="sha">#d8d0c6b</div>
+                                        <div class="message">add readline</div>
                                     </div>
                                 </div>
                             </section>
