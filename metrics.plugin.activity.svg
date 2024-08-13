@@ -29,8 +29,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#64d2330</div>
-                                        <div class="message">format and add read_keys</div>
+                                        <div class="sha">#68ef6db</div>
+                                        <div class="message">fix bug</div>
                                     </div>
                                 </div>
                             </section>
@@ -49,8 +49,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#6248a66</div>
-                                        <div class="message">init</div>
+                                        <div class="sha">#d2b70b0</div>
+                                        <div class="message">add min diff</div>
                                     </div>
                                 </div>
                             </section>
