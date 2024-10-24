@@ -89,8 +89,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#d2b70b0</div>
-                                        <div class="message">add min diff</div>
+                                        <div class="sha">#afdd268</div>
+                                        <div class="message">fix bug</div>
                                     </div>
                                 </div>
                             </section>
