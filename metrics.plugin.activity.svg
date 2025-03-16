@@ -29,8 +29,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">develop</span></div>
                                     <div class="commit">
-                                        <div class="sha">#d2d085c</div>
-                                        <div class="message">fix bug for auto_stake</div>
+                                        <div class="sha">#821d14b</div>
+                                        <div class="message">Update README.md</div>
                                     </div>
                                 </div>
                             </section>
@@ -49,8 +49,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">develop</span></div>
                                     <div class="commit">
-                                        <div class="sha">#59390cf</div>
-                                        <div class="message">fix typo</div>
+                                        <div class="sha">#423d575</div>
+                                        <div class="message">fix bug</div>
                                     </div>
                                 </div>
                             </section>
@@ -69,8 +69,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">develop</span></div>
                                     <div class="commit">
-                                        <div class="sha">#18f8e2d</div>
-                                        <div class="message">add test monitor</div>
+                                        <div class="sha">#d625a5e</div>
+                                        <div class="message">add stake move, Need test</div>
                                     </div>
                                 </div>
                             </section>
@@ -89,8 +89,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">develop</span></div>
                                     <div class="commit">
-                                        <div class="sha">#5eb966b</div>
-                                        <div class="message">fix bug for monitor</div>
+                                        <div class="sha">#d45adb7</div>
+                                        <div class="message">add todo</div>
                                     </div>
                                 </div>
                             </section>
